@@ -1,0 +1,32 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:id="@+id/title"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:layout_margin="20px"
+        android:textColor="#F7FDFD"
+        android:background="#D8E6253C"
+        android:id="@+id/sbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go back"
+        android:textColor="#F7FDFD"
+        android:layout_margin="20px"
+        android:background="#D8E6253C"
+        android:id="@+id/gbbtn"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20px"
+       android:textColor="#F7FDFD"
+       android:background="#D8E6253C"
+       android:id="@+id/add"
+       android:text="ADD"/>
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20px"
+       android:textColor="#F7FDFD"
+       android:background="#D8E6253C"
+       android:id="@+id/search"
+       android:text="SEARCH"/>
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20px" android:textColor="#F7FDFD"
+       android:background="#D8E6253C"
+       android:id="@+id/del"
+       android:text="DELETE"/>
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20px"
+       android:textColor="#F7FDFD"
+       android:background="#D8E6253C"
+       android:id="@+id/logout"
+       android:text="LOGOUT"/>
+</LinearLayout>
